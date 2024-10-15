@@ -5,10 +5,15 @@ let rating = null;
 function createRatingComponent() {
     const main = document.getElementById('main');
 
+    const image_container = document.createElement('div');
+    image_container.classList.add('rating__image-container');
+
     const image = document.createElement('img');
     image.src = "/images/icon-star.svg";
     image.alt = "A star icon";
     image.classList.add('rating__icon');
+
+    image_container.appendChild(image);
 
     const title = document.createElement('h1');
     title.textContent = "How did we do?";
@@ -51,13 +56,13 @@ function createRatingComponent() {
     submit_button.addEventListener('click', () => {
         if (rating != null) {
             document.getElementById('main').innerHTML = "";
-            createThankComponent();
+            createThankComponent(rating);
         } else {
             return
         }
     });
 
-    main.append(image,
+    main.append(image_container,
         title,
         description,
         option_container,

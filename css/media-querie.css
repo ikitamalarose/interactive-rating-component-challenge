@@ -1,3 +1,70 @@
-@media (max-width: 768px){
-    
+@media (max-width: 768px) {
+  body {
+    font-size: var(--font-size-body-s);
+  }
+
+  #main {
+    width: 20.438rem;
+    height: 22.5rem;
+
+    border-radius: 0.938rem;
+
+    padding: 1.5rem;
+  }
+
+  /* rating state start */
+  .rating__image-container {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    margin-bottom: 1rem;
+  }
+
+  .rating__icon {
+    width: 0.833rem;
+    height: 0.833rem;
+  }
+
+  .rating__title {
+    margin-bottom: 1.063rem;
+  }
+
+  .rating__description {
+    line-height: 1.375rem;
+  }
+
+  .option-container {
+    margin-bottom: 1.5rem;
+  }
+
+  .rating__option {
+    width: 2.625rem;
+    height: 2.625rem;
+  }
+
+  /* ranting state end  */
+
+  /* Thank you state start  */
+  .thank-you__image {
+    width: 9rem;
+    height: 6rem;
+  }
+
+  .thank-you__recap {
+    width: 10.5rem;
+
+    line-height: 1.375rem;
+
+    margin: 1.5rem auto;
+  }
+
+  .thank-you__title {
+    margin-bottom: 0.625rem;
+  }
+
+  .thank-you__description {
+    line-height: 1.375rem;
+  }
+
+  /* Thank you state end  */
 }
