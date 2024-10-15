@@ -11,8 +11,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -29,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
+![](./design/desktop-preview.png)
 
 ### Links
 
-- Solution URL: [See repository]()
-- Live Site URL: [Preview website]()
+- Solution URL: [See repository](https://github.com/ikitamalarose/interactive-rating-component-challenge.git)
+- Live Site URL: [Preview website](https://interactive-rating-component-challenge-delta.vercel.app/)
 
 ## My process
 
@@ -48,22 +46,10 @@ Users should be able to:
 
 ### What I learned
 
-```html
-
-```
 ```css
-
+background: linear-gradient(to bottom, #232a34 0%, #181e27 100%);
 ```
-```js
-
-```
-### Continued development
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) 
-- [Example resource 2](https://www.example.com) 
+- I explored the use of CSS gradients to create visually appealing backgrounds. This specific linear gradient creates a smooth transition from a dark blue-gray color (#232a34) at the top to a slightly darker shade (#181e27) at the bottom. Gradients are a great way to add depth and professionalism to a design without the need for multiple images or extra assets.
 
 ## Author
 
